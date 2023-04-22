@@ -1,0 +1,65 @@
+.App {
+    margin:auto;
+    margin-top: 3rem;
+    display: flex;
+    min-height: 20rem;
+    width: 35rem;
+    transition: 0.2s ease-in-out;
+  }
+
+.Main {
+    display: flex;
+    margin: auto;
+    background-color: rgb(255, 249, 242, .85);
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 30rem;
+    border-radius:10px;
+}
+
+
+@media (min-width: 700px) {
+    .Main {
+      width: 35rem;
+    }
+    .App:hover {
+      margin-top: 2.5rem;
+    }
+  }
+
+.list-group {
+  margin-top: 1rem;
+}
+
+.btn {
+  width: 9rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  background-color: rgb(255, 249, 242);
+  border-color:rgb(223, 218, 214) !important;
+  border-width: .19rem;
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: 0 0 5px #666464;
+  background-color:rgb(255, 249, 242);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color:rgb(255, 249, 242) !important; 
+}
+
+.btn:focus {
+  background-color:rgb(255, 249, 242) !important;
+}
+
+.btn:target {
+  background-color:rgb(255, 249, 242) !important;
+}
+
+
+
